@@ -5,7 +5,7 @@
     <remote name="LineageOS" fetch="https://github.com/LineageOS" clone-depth="1" />
         
     <!-- Device -->
-    <project path="device/xiaomi/earth" name="android_device_xiaomi_earth" remote="MEMENG872" revision="alpha" />
+    <project path="device/xiaomi/earth" name="android_device_xiaomi_earth" remote="MEMENG872" revision="lineage-23.2" />
     <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="LineageOS" revision="lineage-23.2" />
 
     <!-- Kernel -->
@@ -22,6 +22,6 @@
     <project path="vendor/mediatek/ims" name="android_vendor_mediatek_ims" remote="MEMENG872" revision="android-16" />
    
     <!-- Certs -->
-    <project path="certs" name="certs" remote="JanDimple" revision="main" />
+    <project path="certs" name="certs" remote="MEMENG872" revision="main" />
 
 </manifest>
