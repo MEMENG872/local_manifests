@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <!-- Remotes -->
-    <remote name="JanDimple" fetch="https://github.com/JanDimple" clone-depth="1" />
+    <remote name="MEMENG872" fetch="https://github.com/MEMENG872" clone-depth="1" />
     <remote name="LineageOS" fetch="https://github.com/LineageOS" clone-depth="1" />
         
     <!-- Device -->
-    <project path="device/xiaomi/earth" name="android_device_xiaomi_earth" remote="JanDimple" revision="infinity" />
+    <project path="device/xiaomi/earth" name="android_device_xiaomi_earth" remote="MEMENG872" revision="infinity" />
     <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="LineageOS" revision="lineage-23.2" />
 
     <!-- Kernel -->
-    <project path="kernel/xiaomi/earth" name="android_kernel_xiaomi_earth" remote="JanDimple" revision="lineage-23.2" />
+    <project path="kernel/xiaomi/earth" name="android_kernel_xiaomi_earth" remote="MEMENG872" revision="lineage-23.2" />
 
     <!-- Vendor -->
-    <project path="vendor/xiaomi/earth" name="proprietary_vendor_xiaomi_earth" remote="JanDimple" revision="lineage-23.2" />
+    <project path="vendor/xiaomi/earth" name="proprietary_vendor_xiaomi_earth" remote="MEMENG872" revision="lineage-23.2" />
 
     <!-- Hardware -->
     <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="LineageOS" revision="lineage-23.2" />
     <project path="hardware/mediatek" name="android_hardware_mediatek" remote="LineageOS" revision="lineage-23.2" />
 
     <!-- Certs -->
-    <project path="certs" name="certs" remote="JanDimple" revision="main" />
+    <project path="certs" name="certs" remote="MEMENG872" revision="main" />
 
 </manifest>
