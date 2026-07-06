@@ -19,7 +19,7 @@
     <project path="hardware/mediatek" name="android_hardware_mediatek" remote="MEMENG872" revision="lineage-23.2" />
 
     <!-- MediatekIMS -->
-    <project path="vendor/mediatek/ims" name="android_vendor_mediatek_ims" remote="MEMENG872" revision="android-16" />
+    <project path="vendor/mediatek/ims" name="android_vendor_mediatek_ims" remote="MEMENG872" revision="lineage-23.2" />
    
     <!-- Certs -->
     <project path="certs" name="certs" remote="MEMENG872" revision="main" />
