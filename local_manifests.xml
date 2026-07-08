@@ -7,7 +7,6 @@
     <!-- Device -->
     <project path="device/xiaomi/earth" name="android_device_xiaomi_earth" remote="MEMENG872" revision="infinity" />
     <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="LineageOS" revision="lineage-23.2" />
-    <project path="device/lineage/sepolicy" name="android_device_lineage_sepolicy" remote="LineageOS" revision="lineage-23.2" />
 
     <!-- Kernel -->
     <project path="kernel/xiaomi/earth" name="android_kernel_xiaomi_earth" remote="MEMENG872" revision="lineage-23.2" />
